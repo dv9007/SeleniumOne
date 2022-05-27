@@ -101,7 +101,7 @@ public class TestSuit {
           //  driver.findElement(By.xpath("//div/button[@type='submit']")).click();
 
              //Click on computer
-             clickOnElement(By.xpath("//ul[@class='top-menu notmobile']//a[normalize-space()='Computers']"));}
+             clickOnElement(By.xpath("//ul[@class='top-menu notmobile']//a[normalize-space()='Computers']"));
 
 
              @Test
@@ -128,7 +128,7 @@ public class TestSuit {
 
 
 
-             }
+
               @Test
              public void userShouldBeAbleToaddProductinShoppingBasketSuccessfully(){
 
@@ -201,4 +201,4 @@ public class TestSuit {
                      SimpleDateFormat formatter = new SimpleDateFormat("ddMMyyyyHHmmss");
                      return formatter.format(date);
          }
-}
+}}}
